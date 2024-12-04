@@ -1,0 +1,72 @@
+.root {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding:0px 20px;
+  align-items: center;
+}
+.img{
+  max-width:100%;
+  width:592px;
+}
+
+.block {
+  max-width:100%;
+  width:592px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'GraphikMedium';
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.text {
+  font-family: "GraphikLight";
+  color: #5E646A;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 10px;
+}
+
+.playerContainer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  max-height: 500px;
+}
+
+.player {
+  max-width: 600px;
+  width: 100%;
+
+}
+
+@media (max-width:768px){
+  .title{
+   font-size: 20px;
+   line-height: 24px;
+  }
+}
+
+@media (max-width:950px){
+  .root{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* .player{
+    max-width:500px;
+    width: 100%;
+  } */
+  .block{
+    max-width: 100%;
+    width: 592px;
+    text-align: center;
+  }
+  
+
+}

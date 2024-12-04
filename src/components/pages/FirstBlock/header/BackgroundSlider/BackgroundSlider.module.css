@@ -1,0 +1,31 @@
+.backgroundSlider {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 960px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(60%);
+  transition: background-image 3s ease-in-out;
+}
+
+
+
+@media (max-width: 768px) {
+  .backgroundSlider {
+    height: 1024px; /* Высота для мобильных устройств */
+  }
+}
+
+@media (max-width: 375px) {
+  .backgroundSlider {
+    height: 596px; /* Высота для маленьких экранов */
+  }
+}
+
+@media (max-width: 320px) {
+  .backgroundSlider {
+    height: 509px; /* Высота для маленьких экранов */
+  }
+}

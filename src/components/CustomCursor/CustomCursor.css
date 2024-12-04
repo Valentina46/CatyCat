@@ -1,0 +1,17 @@
+.custom-cursor {
+  position: fixed;
+  pointer-events: none; /* Скрывает курсор от взаимодействия с элементами */
+  height: 40px; /* Высота курсора */
+  width: 40px; /* Ширина курсора */
+  transition: transform 0.1s ease; /* Плавный переход */
+  transform: translate(-50%, -50%); /* Центрирование курсора */
+  background-image: url('./../assets/paw.png');
+  z-index: 9999;
+}
+
+.custom-cursor.clicked {
+  background-image: url('./../assets/paw2.png'); /* Путь к картинке при клике */
+  height: 70px; /* Высота курсора */
+  width: 70px; /* Ширина курсора */
+  z-index: 9999;
+}

@@ -1,0 +1,23 @@
+.root{
+  background: #f5f5f5;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Graphik LCG";
+  font-size:16px;
+  line-height: 28px;
+  padding: 50px 20px;
+}
+.title{
+  font-family: "GraphikMedium"
+}
+
+@media (max-width: 768px) {
+  .root{
+    display: flex;
+    flex-direction: column;
+
+    
+  }
+}

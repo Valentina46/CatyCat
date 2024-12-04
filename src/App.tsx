@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { FirstBlock } from './components/pages/FirstBlock/FirstBlock';
+import { HowDoesThisWork } from './components/pages/HowDoesThisWork/HowDoesThisWork';
+import { ThirdBlock } from './components/pages/ThirdBlock/ThirdBlock';
+import { FeedBack } from './components/pages/FeedBack/FeedBack';
+import { DropDownBlock } from './components/pages/DropDownBlock/DropDownBlock';
+import { Survey } from './components/pages/Survey/Survey';
+import { Footer } from './components/pages/Footer/Footer';
+import CustomCursor from './components/CustomCursor/CustomCursor';
+import Form from './components/pages/Form/Form';
 
-function App() {
+
+const App = () => {
+   
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='root'>
+    <div>
+      <CustomCursor/>
+    </div>
+    <div>
+      <FirstBlock/>
+      <HowDoesThisWork/>
+      <ThirdBlock/>
+      <FeedBack/>
+      <DropDownBlock/>
+      <Survey/>
+      <Form/>
+      <Footer/>
+    </div>
     </div>
   );
 }

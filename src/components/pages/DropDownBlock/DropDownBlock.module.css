@@ -1,0 +1,35 @@
+.root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px 50px 0px;
+}
+
+.title {
+  font-family: 'GraphikMedium';
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  justify-content: center;
+}
+.questionsAnswers {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-family: 'GraphikMedium';
+  font-size: 18px;
+  line-height: 32px;
+  border-top: 1px black;
+
+}
+
+@media (max-width:375px){
+  .title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .questionsAnswers {
+    width: 80%;
+  }
+
+}

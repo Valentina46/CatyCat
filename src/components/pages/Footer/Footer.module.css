@@ -1,0 +1,53 @@
+.footer {
+  background: linear-gradient(135deg, #a0c4ff, #ff677d);
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.socials {
+  margin-bottom: 15px;
+}
+
+.link {
+  margin: 0 15px;
+  color: #ffec40;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link:hover {
+  color: #ff677d;
+  transform: scale(1.1);
+}
+
+.copy {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+@media (max-width: 300px) {
+  .socials {
+    display: flex;
+    flex-direction: column;
+  }
+}

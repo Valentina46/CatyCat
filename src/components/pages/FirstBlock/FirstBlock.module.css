@@ -1,0 +1,34 @@
+.root {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 960px;
+  width: 100%;
+  position: relative;      
+  height: 100vh;       
+}
+ 
+
+ @media (max-width: 1920px) {
+  .root{
+    height: 960px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .root{
+    height: 1024px;
+    width: 100%;
+    
+  }
+}
+@media (max-width: 375px) {
+  .root{
+    height: 596px;
+  }
+}
+@media (max-width: 320px) {
+  .root{
+    height: 509px;
+  }
+} 

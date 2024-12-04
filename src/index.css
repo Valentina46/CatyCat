@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+@font-face {
+  font-family: "Graphik LCG";
+  src:url("./components/assets/graphlink/Graphik-Regular-Web.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "GraphikLight";
+  src:url("./components/assets/graphlink/GraphikLCG-Light.ttf");
 }
+
+@font-face {
+  font-family: "GraphikMedium";
+  src:url("./components/assets/graphlink/Graphik-Medium-Web.ttf");
+}
+
+@font-face {
+  font-family: "GraphikBold";
+  src:url("./components/assets/graphlink/Graphik-Bold-Web.ttf");
+}
+
+@font-face {
+  font-family: "ComforterBrush";
+  src:url("./components/assets/fonts/ComforterBrush-Regular.ttf");
+}
+
+@font-face {
+  font-family: "MarckScript";
+  src:url("./components/assets/fonts/MarckScript-Regular.ttf");
+}
+  
+
+

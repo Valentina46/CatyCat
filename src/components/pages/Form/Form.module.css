@@ -1,0 +1,139 @@
+
+
+.formContainer {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'GraphikMedium';
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 25px 0px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  
+}
+
+.input,
+.textarea {
+  width: 95%;
+  padding: 15px 0px 15px 15px;
+  margin: 0px 0px 15px 0px;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.select{
+  width: 98%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  border-color: rgb(86, 181, 184);
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.button {
+  width: 103%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: linear-gradient(to top,rgb(152, 207, 195), rgb(86, 181, 184));
+}
+
+.button:hover {
+  background: linear-gradient(to top, rgb(86, 181, 184), rgb(152, 207, 195));
+}
+
+.div {
+  margin-bottom: 15px;
+}
+
+/* Поля ввода телефона */
+.phoneInput {
+  width: 100%;
+  height: 48px;
+  background-color: #f6f8fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.phoneInput:focus {
+  border-color: rgb(86, 181, 184);
+  outline: none;
+  box-shadow: 0 0 4px rgba(42, 108, 234, 0.4);
+}
+.playerContainer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  max-height: 500px;
+}
+
+.player {
+  max-width: 500px;
+  width: 100%; 
+  
+}
+.answer{
+  display: flex;
+  justify-content: center;
+  animation: answer 3s linear infinite;
+}
+
+@keyframes answer {
+  from { opacity: 1; /* Непрозрачный текст */ }
+  to { opacity: 0; /* Прозрачный текст */ }
+ }
+
+ @media (max-width: 375px) {
+  .inputs{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 32px;
+
+  }
+  .heading{
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
